@@ -1,0 +1,226 @@
+@import "./variables";
+
+.sidebar {
+    color: $text-color;
+    position: relative;
+    height: 100%;
+    width:250px;
+    max-height: 100%;
+    overflow: hidden !important;
+
+    .image-wrapper {
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        display: none;
+        > img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+    &.has-bg-image {
+        .sidebar-layout {
+            background-color: rgba($bg-color, 0.85);
+        }
+        .image-wrapper {
+            display: block;
+            // filter: blur(3px);
+        }
+    }
+
+    .sidebar-layout {
+        height: 100%;
+        max-height: 100%;
+        min-height: 100%;
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        background-color: $bg-color;
+        z-index: 2;
+
+        &::-webkit-scrollbar-thumb {
+            border-radius: 4px;
+        }
+
+        &:hover {
+            &::-webkit-scrollbar-thumb {
+                background-color: lighten($bg-color, 15);
+            }
+        }
+
+        &::-webkit-scrollbar {
+            width: 6px;
+            background-color: $bg-color;
+        }
+
+        .sidebar-header {
+            height: $sidebar-header-height;
+            min-height: $sidebar-header-height;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+            > span {
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+        }
+        .sidebar-content {
+            flex-grow: 1;
+            padding: 10px 0;
+        }
+        .sidebar-footer {
+            height: $sidebar-footer-height;
+            min-height: $sidebar-footer-height;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+            > span {
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+}
+
+.layout-menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    .layout-root-menuitem {
+        >.layout-menuitem-root-text {
+            font-size: .857rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: var(--surface-900);
+            margin: .75rem 0;
+        }
+
+        >a {
+            display: none;
+        }
+    }
+
+    a {
+        user-select: none;
+
+        &.active-menuitem {
+            >.layout-submenu-toggler {
+                transform: rotate(45deg);
+            }
+        }
+    }
+
+    li.active-menuitem {
+        >a {
+            .layout-submenu-toggler {
+                transform: rotate(90deg);
+            }
+        }
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+
+        a {
+            display: flex;
+            align-items: center;
+            position: relative;
+            outline: 0 none;
+            color: var(--text-color);
+            cursor: pointer;
+            padding: .75rem 1rem;
+            border-radius: $borderRadius;
+            transition: background-color $transitionDuration, box-shadow $transitionDuration;
+
+            .layout-menuitem-icon {
+                font-size: 1.2rem;
+                width: 35px;
+                min-width: 35px;
+                height: 35px;
+                line-height: 35px;
+                text-align: center;
+                display: inline-block;
+                margin-right: 10px;
+                border-radius: 2px;
+                transition: color 0.3s;
+                i {
+                    display: inline-block;
+                }
+            }
+
+            .layout-submenu-toggler {
+                font-size: 75%;
+                margin-left: auto;
+                transition: transform $transitionDuration;
+            }
+
+            &.active-route {
+                font-weight: 700;
+                color: var(--primary-color);
+            }
+
+            &:hover {
+                background-color: var(--surface-hover);
+            }
+
+            &:focus {
+                @include focused-inset();
+            }
+        }
+
+        ul {
+            overflow: hidden;
+            border-radius: $borderRadius;
+
+            li {
+                a {
+                    margin-left: 1rem;
+                }
+
+                li {
+                    a {
+                        margin-left: 2rem;
+                    }
+
+                    li {
+                        a {
+                            margin-left: 2.5rem;
+                        }
+
+                        li {
+                            a {
+                                margin-left: 3rem;
+                            }
+
+                            li {
+                                a {
+                                    margin-left: 3.5rem;
+                                }
+
+                                li {
+                                    a {
+                                        margin-left: 4rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+

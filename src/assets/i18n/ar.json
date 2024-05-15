@@ -1,0 +1,264 @@
+{
+    "from-to": "العناصر من {first} إلى {last} (الإجمالي {totalRecords})",
+    "new": "جديد",
+    "search": "بحث",
+    "export": "تصدير",
+    "validate": "التحقق",
+    "search": "البحث...",
+    "delete": "حذف",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "next": "التالي",
+    "yes": "نعم",
+    "no": "لا",
+    "actions": "الإجراءات",
+    "confirm": "تأكيد",
+    "creation": "إنشاء",
+    "list": "قائمة",
+
+    "actionPermission": {
+        "reference": "المرجع",
+        "libelle": "التسمية",
+        "actionPermission": "إذن الإجراء",
+        "tabPan": "إذن الإجراء",
+        "header": "قائمة أذونات الإجراءات",
+        "deleteActionPermissionConfirmationMessage": "هل أنت متأكد أنك تريد حذف إذن الإجراء؟",
+        "deleteActionPermissionsConfirmationMessage": "هل أنت متأكد أنك تريد حذف العناصر المحددة؟"
+    },
+
+    "modelPermissionUser": {
+        "actionPermission": "إذن الإجراء",
+        "actionPermissionPlaceHolder": "اختر إذن الإجراء",
+        "actionPermissionPlaceHolderFilter": "البحث حسب إذن الإجراء",
+        "modelPermission": "إذن النموذج",
+        "modelPermissionPlaceHolder": "اختر إذن النموذج",
+        "modelPermissionPlaceHolderFilter": "البحث حسب إذن النموذج",
+        "value": "القيمة",
+        "user": "المستخدم",
+        "userPlaceHolder": "اختر مستخدمًا",
+        "userPlaceHolderFilter": "البحث حسب المستخدم",
+        "subAttribute": "السمة الفرعية",
+        "modelPermissionUser": "إذن مستخدم النموذج",
+        "tabPan": "إذن مستخدم النموذج",
+        "header": "قائمة مستخدمي إذن النموذج",
+        "deleteModelPermissionUserConfirmationMessage": "هل أنت متأكد أنك تريد حذف مستخدم إذن النموذج؟",
+        "deleteModelPermissionUsersConfirmationMessage": "هل أنت متأكد أنك تريد حذف العناصر المحددة؟"
+    },
+
+    "role": {
+        "authority": "السلطة",
+        "role": "الدور",
+        "tabPan": "الدور",
+        "header": "قائمة الأدوار",
+        "deleteRoleConfirmationMessage": "هل أنت متأكد أنك تريد حذف الدور؟",
+        "deleteRolesConfirmationMessage": "هل أنت متأكد أنك تريد حذف العناصر المحددة؟"
+    },
+
+    "roleUser": {
+        "role": "الدور",
+        "rolePlaceHolder": "اختر دورًا",
+        "rolePlaceHolderFilter": "البحث حسب الدور",
+        "user": "المستخدم",
+        "userPlaceHolder": "اختر مستخدمًا",
+        "userPlaceHolderFilter": "البحث حسب المستخدم",
+        "roleUser": "دور المستخدم",
+        "tabPan": "دور المستخدم",
+        "header": "قائمة مستخدمي الدور",
+        "deleteRoleUserConfirmationMessage": "هل أنت متأكد أنك تريد حذف مستخدم الدور؟",
+        "deleteRoleUsersConfirmationMessage": "هل أنت متأكد أنك تريد حذف العناصر المحددة؟"
+    },
+
+    "user": {
+        "credentialsNonExpired": "صلاحية الاعتماد غير منتهية",
+        "enabled": "مفعل",
+        "email": "البريد الإلكتروني",
+        "accountNonExpired": "الحساب غير منتهي",
+        "accountNonLocked": "الحساب غير مقفل",
+        "username": "اسم المستخدم",
+        "password": "كلمة المرور",
+        "passwordChanged": "تم تغيير كلمة المرور",
+        "modelPermissionUsers": "مستخدمو إذن النموذج",
+        "roleUsers": "مستخدمو الدور",
+        "RoleUsersPlaceHolder": "حدد عدة أدوار",
+        "user": "المستخدم",
+        "tabPan": "المستخدم",
+        "header": "قائمة المستخدمين",
+        "deleteUserConfirmationMessage": "هل أنت متأكد أنك تريد حذف المستخدم؟",
+        "deleteUsersConfirmationMessage": "هل أنت متأكد أنك تريد حذف العناصر المحددة؟"
+    },
+
+	"modelPermission": {
+		"reference": "المرجع",
+		"libelle": "التسمية",
+		"modelPermission": "إذن النموذج",
+		"tabPan": "إذن النموذج",
+		"header": "قائمة أذونات النماذج",
+		"deleteModelPermissionConfirmationMessage": "هل أنت متأكد أنك تريد حذف إذن النموذج؟",
+		"deleteModelPermissionsConfirmationMessage": "هل أنت متأكد أنك تريد حذف العناصر المحددة؟"
+	}
+
+
+
+    "grad":{
+        "code": "Code",
+        "libelle": "Libelle",
+        "tarification": "Tarification",
+        "tarificationMin": "Tarification Min",
+        "tarificationMax": "Tarification Max",
+        "grad": "Grad",
+        "tabPan": "Grad",
+        "header": "Liste des grads",
+        "deleteGradConfirmationMessage": "Are you sure you want to delete grad",
+        "deleteGradsConfirmationMessage": "Are you sure you want to delete the selected elements"
+    },
+
+
+    "membreEquipe":{
+        "equipe": "Equipe",
+        "equipePlaceHolder": "Select a Equipe",
+        "equipePlaceHolderFilter": "Search by Equipe",
+        "grad": "Grad",
+        "gradPlaceHolder": "Select a Grad",
+        "gradPlaceHolderFilter": "Search by Grad",
+        "collaborator": "Collaborator",
+        "collaboratorPlaceHolder": "Select a Collaborator",
+        "collaboratorPlaceHolderFilter": "Search by Collaborator",
+        "membreEquipe": "Membre equipe",
+        "tabPan": "Membre equipe",
+        "header": "Liste des membre equipes",
+        "deleteMembreEquipeConfirmationMessage": "Are you sure you want to delete membre equipe",
+        "deleteMembreEquipesConfirmationMessage": "Are you sure you want to delete the selected elements"
+    },
+
+
+    "projet":{
+        "code": "Code",
+        "libelle": "Libelle",
+        "nros": "Nros",
+        "projet": "Projet",
+        "tabPan": "Projet",
+        "header": "Liste des projets",
+        "deleteProjetConfirmationMessage": "Are you sure you want to delete projet",
+        "deleteProjetsConfirmationMessage": "Are you sure you want to delete the selected elements"
+    },
+
+
+    "nro":{
+        "code": "Code",
+        "libelle": "Libelle",
+        "sros": "Sros",
+        "projet": "Projet",
+        "projetPlaceHolder": "Select a Projet",
+        "projetPlaceHolderFilter": "Search by Projet",
+        "nro": "Nro",
+        "tabPan": "Nro",
+        "header": "Liste des nros",
+        "deleteNroConfirmationMessage": "Are you sure you want to delete nro",
+        "deleteNrosConfirmationMessage": "Are you sure you want to delete the selected elements"
+    },
+
+
+    "collaborator":{
+        "description": "Description",
+        "grad": "Grad",
+        "gradPlaceHolder": "Select a Grad",
+        "gradPlaceHolderFilter": "Search by Grad",
+        "credentialsNonExpired": "Credentials non expired",
+        "enabled": "Enabled",
+        "accountNonExpired": "Account non expired",
+        "accountNonLocked": "Account non locked",
+        "passwordChanged": "Password changed",
+        "username": "Username",
+        "password": "Password",
+        "collaborator": "Collaborator",
+        "tabPan": "Collaborator",
+        "header": "Liste des collaborators",
+        "deleteCollaboratorConfirmationMessage": "Are you sure you want to delete collaborator",
+        "deleteCollaboratorsConfirmationMessage": "Are you sure you want to delete the selected elements"
+    },
+
+
+    "equipe":{
+        "code": "Code",
+        "libelle": "Libelle",
+        "chefEquipe": "Chef equipe",
+        "chefEquipePlaceHolder": "Select a Chef equipe",
+        "chefEquipePlaceHolderFilter": "Search by Chef equipe",
+        "membreEquipes": "Membre equipes",
+        "typeEquipe": "Type equipe",
+        "typeEquipePlaceHolder": "Select a Type equipe",
+        "typeEquipePlaceHolderFilter": "Search by Type equipe",
+        "equipe": "Equipe",
+        "tabPan": "Equipe",
+        "header": "Liste des equipes",
+        "deleteEquipeConfirmationMessage": "Are you sure you want to delete equipe",
+        "deleteEquipesConfirmationMessage": "Are you sure you want to delete the selected elements"
+    },
+
+
+    "tache":{
+        "reference": "Reference",
+        "libelle": "Libelle",
+        "description": "Description",
+        "sro": "Sro",
+        "sroPlaceHolder": "Select a Sro",
+        "sroPlaceHolderFilter": "Search by Sro",
+        "dateTache": "Date tache",
+        "dateTacheMin": "Date tache Min",
+        "dateTacheMax": "Date tache Max",
+        "dureeTache": "Duree tache",
+        "dureeTacheMin": "Duree tache Min",
+        "dureeTacheMax": "Duree tache Max",
+        "membreEquipe": "Membre equipe",
+        "membreEquipePlaceHolder": "Select a Membre equipe",
+        "membreEquipePlaceHolderFilter": "Search by Membre equipe",
+        "typeTache": "Type tache",
+        "typeTachePlaceHolder": "Select a Type tache",
+        "typeTachePlaceHolderFilter": "Search by Type tache",
+        "tache": "Tache",
+        "tabPan": "Tache",
+        "header": "Liste des taches",
+        "deleteTacheConfirmationMessage": "Are you sure you want to delete tache",
+        "deleteTachesConfirmationMessage": "Are you sure you want to delete the selected elements"
+    },
+
+
+    "typeTache":{
+        "code": "Code",
+        "libelle": "Libelle",
+        "typeTache": "Type tache",
+        "tabPan": "Type tache",
+        "header": "Liste des type taches",
+        "deleteTypeTacheConfirmationMessage": "Are you sure you want to delete type tache",
+        "deleteTypeTachesConfirmationMessage": "Are you sure you want to delete the selected elements"
+    },
+
+
+    "typeEquipe":{
+        "code": "Code",
+        "libelle": "Libelle",
+        "typeEquipe": "Type equipe",
+        "tabPan": "Type equipe",
+        "header": "Liste des type equipes",
+        "deleteTypeEquipeConfirmationMessage": "Are you sure you want to delete type equipe",
+        "deleteTypeEquipesConfirmationMessage": "Are you sure you want to delete the selected elements"
+    },
+
+
+    "sro":{
+        "code": "Code",
+        "libelle": "Libelle",
+        "nro": "Nro",
+        "nroPlaceHolder": "Select a Nro",
+        "nroPlaceHolderFilter": "Search by Nro",
+        "sro": "Sro",
+        "tabPan": "Sro",
+        "header": "Liste des sros",
+        "deleteSroConfirmationMessage": "Are you sure you want to delete sro",
+        "deleteSrosConfirmationMessage": "Are you sure you want to delete the selected elements"
+    },
+
+"appName": "GED"
+}
+
+

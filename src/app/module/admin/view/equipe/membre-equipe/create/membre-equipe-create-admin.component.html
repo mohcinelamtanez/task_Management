@@ -1,0 +1,50 @@
+        <p-dialog [(visible)]="createDialog" [style]="{width: '70vw'}" header="{{'membreEquipe.tabPan' | translate}}" [modal]="true" styleClass="p-fluid" [maximizable]="true" [draggable]="false" [resizable]="false">
+            <ng-template pTemplate="content" >
+                        <p-tabView>
+                            <p-tabPanel header="{{'membreEquipe.tabPan' | translate}}">
+                                <div class="grid">
+
+                                            <div class="field col-11 md:col-6">
+                                                <label for="1">{{'membreEquipe.equipe' | translate}}</label>
+                                                <p-dropdown  appendTo="body"  [options]="equipes" [(ngModel)]="item.equipe" id="1" [filter]="true" filterMatchMode="contains"
+                                                        [showClear]="true" optionLabel="libelle" placeholder="{{'membreEquipe.equipe' | translate}}"  >
+                                                </p-dropdown>
+                                                
+                                            </div>
+
+                                            <div class="field col-11 md:col-6">
+                                                <label for="2">{{'membreEquipe.grad' | translate}}</label>
+                                                <p-dropdown  appendTo="body"  [options]="grads" [(ngModel)]="item.grad" id="2" [filter]="true" filterMatchMode="contains"
+                                                        [showClear]="true" optionLabel="libelle" placeholder="{{'membreEquipe.grad' | translate}}"  >
+                                                </p-dropdown>
+                                                
+                                            </div>
+
+                                            <div class="field col-11 md:col-6">
+                                                <label for="3">{{'membreEquipe.collaborator' | translate}}</label>
+                                                <p-dropdown  appendTo="body"  [options]="collaborators" [(ngModel)]="item.collaborator" id="3" [filter]="true" filterMatchMode="contains"
+                                                        [showClear]="true" optionLabel="description" placeholder="{{'membreEquipe.collaborator' | translate}}"  >
+                                                </p-dropdown>
+                                                
+                                            </div>
+
+                                </div>
+                            </p-tabPanel>
+
+                        </p-tabView>
+
+            </ng-template>
+
+            <ng-template pTemplate="footer" >
+                <div class="p-flexbox">
+
+                            <button pButton pRipple  label="{{'validate' | translate}}"  icon="pi pi-check"  (click)="save()"></button>
+
+
+                            <button pButton pRipple  label="{{'cancel' | translate}}" icon="pi pi-times" class="p-button-outlined" (click)="hideCreateDialog()"></button>
+
+
+                </div>
+            </ng-template>
+
+    </p-dialog>
